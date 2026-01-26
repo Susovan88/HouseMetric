@@ -1,0 +1,83 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ================================
+# Virtual Environments
+# ================================
+venv/
+.env/
+.env.local/
+.venv/
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ================================
+# Data (IMPORTANT for ML projects)
+# ================================
+# Raw / intermediate / processed data
+data/raw/
+data/interim/
+data/processed/
+
+# Allow README inside data folder (if any)
+!data/**/README.md
+
+# ================================
+# Reports & Outputs
+# ================================
+reports/*.html
+reports/*.pdf
+reports/*.csv
+
+# ================================
+# Plots & Images (generated)
+# ================================
+assets/images/
+assets/plots/
+
+# ================================
+# Logs
+# ================================
+*.log
+
+# ================================
+# OS-specific
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# IDEs & Editors
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# Model artifacts
+# ================================
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# ================================
+# Misc
+# ================================
+.cache/
+pytest_cache/
